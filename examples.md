@@ -21,7 +21,7 @@ Profit: 450$
     (1100$ - 650$)
 ```
 
-###Automatically calculated:
+### Automatically calculated:
 
 ![](./example1.png)
 
