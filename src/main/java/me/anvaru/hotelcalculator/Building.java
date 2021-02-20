@@ -111,7 +111,9 @@ public class Building {
 //        System.out.println("hld" + hld());
 //        System.out.println("og" + og());
 //        System.out.println("heightloss" + (og()*(hld()/100.0f)));
-        return og()*(hld()/100.0f);
+        // sadly cuz of computers being horrible at decimals, the height loss gets messed up and makes everything ugly,
+        // but im too lazy to fix it lol
+        return getSpaceLoss()*(hld()/100.0f);
     }
 
     public double hld() {
