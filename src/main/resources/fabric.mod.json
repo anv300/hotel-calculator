@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "hotel-calculator",
+  "version": "${version}",
+  "name": "Hotel Calculator",
+  "description": "",
+  "authors": [
+    "AnvarUrasin"
+  ],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/hotel-calculator/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.anvaru.hotelcalculator.client.HotelCalculatorClient"
+    ],
+    "main": [
+      "me.anvaru.hotelcalculator.HotelCalculator"
+    ]
+  },
+  "mixins": [
+    "hotel-calculator.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
