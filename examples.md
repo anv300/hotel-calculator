@@ -3,8 +3,6 @@
 ### Manually calculated:
 
 ```
-Note: While it says $, it should be counted as euros, $ is only used because it is easier for me to write
-
 ------ Income
 4W: 1 = 500$
 4W, 1R: 1 = 600$
@@ -30,8 +28,6 @@ Profit: 450$
 ### Manually calculated:
 
 ```
-Note: While it says $, it should be counted as euros, $ is only used because it is easier for me to write 
-
 ------ Income
 4W: 1 = 500$
 4W, 1F: 1 = 600$
